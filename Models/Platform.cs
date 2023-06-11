@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using CommanderGQL.Data;
 
 namespace CommanderGQL.Models
 {
@@ -10,6 +11,7 @@ namespace CommanderGQL.Models
         public string Name { get; set; }
 
         public string LicenseKey { get; set; }
+        public ICollection<Command> Commands { get; set; } = new List<Command>();
 
 
     }
