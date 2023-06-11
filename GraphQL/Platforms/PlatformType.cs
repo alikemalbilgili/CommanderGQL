@@ -30,7 +30,7 @@ namespace CommanderGQL.GraphQL.Platforms
 
         private class Resolvers
         {
-            public IQueryable<Command> GetCommands(Platform platform, AppDbContext context)
+            public IQueryable<Command> GetCommands([Parent] Platform platform, AppDbContext context)
             {
                 return context.Commands.Where(p => p.PlatformId == platform.Id);
             }
