@@ -2,6 +2,8 @@
 
 This repository contains a sample project to help you learn GraphQL using .NET 7, Docker, PostgreSQL, and Hot Chocolate. The project provides a basic setup for building a GraphQL API and includes a Docker configuration for containerization.
 
+This project made using by this [Lesson](https://www.youtube.com/watch?v=HuN94qNwQmM)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
